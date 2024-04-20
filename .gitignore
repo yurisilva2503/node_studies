@@ -1,4 +1,2 @@
 node_modules
 .env
-routes-deploy.http
-routes-localhost.http
