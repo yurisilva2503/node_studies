@@ -1,0 +1,26 @@
+GET http://localhost:3333/videos
+
+###
+
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title": "Teste Novo Video",
+    "description": "descrição do novo video",
+    "duration": 400
+}
+
+###
+DELETE http://localhost:3333/videos/76aa7a24-bfc8-4dbe-8202-c1e0cb68090a
+
+###
+
+PUT http://localhost:3333/videos/0a5843a6-f5b2-446d-85d2-a4d6e99ed634
+Content-Type: application/json
+
+{
+    "title": "Put no insert do celular",
+    "description": "Descrição do put no insert do celular",
+    "duration": 300
+}
